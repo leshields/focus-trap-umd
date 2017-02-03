@@ -1,0 +1,19 @@
+{
+  "name": "focus-trap-umd",
+  "version": "1.0.0",
+  "description": "focus-trap wrapped in the UMD pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leshields/focus-trap-umd.git"
+  },
+  "author": "Laura Shields",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leshields/focus-trap-umd/issues"
+  },
+  "homepage": "https://github.com/leshields/focus-trap-umd#readme"
+}
