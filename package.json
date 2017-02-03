@@ -4,7 +4,7 @@
   "description": "focus-trap wrapped in the UMD pattern.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify -s createFocusTrap src/index.js > index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/leshields/focus-trap-umd/issues"
   },
-  "homepage": "https://github.com/leshields/focus-trap-umd#readme"
+  "homepage": "https://github.com/leshields/focus-trap-umd#readme",
+  "dependencies": {
+    "focus-trap": "^2.3.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.0.0"
+  }
 }
